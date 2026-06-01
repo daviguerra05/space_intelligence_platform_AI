@@ -26,7 +26,7 @@ rf_pipeline.fit(X_train, y_train)
 
 joblib.dump(
     rf_pipeline,
-    '../models/random_forest.pkl'
+    'random_forest.pkl'
 )
 
 print("Random Forest trained.")

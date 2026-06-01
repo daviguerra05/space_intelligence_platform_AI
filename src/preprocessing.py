@@ -5,7 +5,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder
 
 df = pd.read_csv(
-    '../data/synthetic/synthetic_agro_data.csv'
+    'synthetic_agro_data.csv'
 )
 
 X = df.drop('stress_risk', axis=1)

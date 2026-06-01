@@ -2,7 +2,7 @@ import joblib
 import pandas as pd
 
 model = joblib.load(
-    '../models/xgboost_model.pkl'
+    'xgboost_model.pkl'
 )
 
 sample = pd.DataFrame({

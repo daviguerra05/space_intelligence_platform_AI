@@ -3,8 +3,11 @@ import pandas as pd
 
 API_KEY = "04608083745e79e0774c0fd383f208ec"
 
-url = f"https://api.openweathermap.org/data/2.5/weather?q=SaoPaulo&appid={API_KEY}"
+# url = f"https://api.openweathermap.org/data/2.5/weather?q=SaoPaulo&appid={API_KEY}"
+lat = -23.501534335458278
+lon = -46.664206855471015
 
+url = f"https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API_KEY}"
 
 response = requests.get(url)
 
