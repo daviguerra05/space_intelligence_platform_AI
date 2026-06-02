@@ -25,7 +25,7 @@ xgb_pipeline.fit(X_train, y_train)
 
 joblib.dump(
     xgb_pipeline,
-    'xgboost_model.pkl'
+    'models/xgboost_model.pkl'
 )
 
 print("XGBoost trained.")

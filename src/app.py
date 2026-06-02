@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 model = joblib.load(
-    'xgboost_model.pkl'
+    'models/xgboost_model.pkl'
 )
 
 st.title("Space Intelligence Platform")

@@ -32,7 +32,7 @@ df['stress_risk'] = np.select(
 )
 
 df.to_csv(
-    '../data/synthetic/synthetic_agro_data.csv',
+    'data/synthetic/synthetic_agro_data.csv',
     index=False
 )
 

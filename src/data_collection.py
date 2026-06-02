@@ -1,9 +1,13 @@
 import requests
 import pandas as pd
+import os
 
-API_KEY = "04608083745e79e0774c0fd383f208ec"
+teste = "04608083745e79e0774c0fd383f208ec"
+
+API_KEY = os.getenv("API_KEY")
 
 # url = f"https://api.openweathermap.org/data/2.5/weather?q=SaoPaulo&appid={API_KEY}"
+
 lat = -23.501534335458278
 lon = -46.664206855471015
 
@@ -23,7 +27,7 @@ weather = {
 df = pd.DataFrame([weather])
 
 df.to_csv(
-    "weather_data.csv",
+    "data/raw/weather_data.csv",
     index=False
 )
 

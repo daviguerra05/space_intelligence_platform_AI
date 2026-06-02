@@ -1,7 +1,7 @@
 import pandas as pd
 
 df = pd.read_csv(
-    'synthetic_agro_data.csv'
+    'data/synthetic/synthetic_agro_data.csv'
 )
 
 df['climate_index'] = (
@@ -17,6 +17,6 @@ df['water_balance'] = (
 )
 
 df.to_csv(
-    'final_dataset.csv',
+    'data/processed/final_dataset.csv',
     index=False
 )

@@ -4,7 +4,7 @@ import shap
 from preprocessing import X_test
 
 model = joblib.load(
-    'xgboost_model.pkl'
+    '/models/xgboost_model.pkl'
 )
 
 classifier = model.named_steps['classifier']

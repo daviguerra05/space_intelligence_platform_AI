@@ -11,11 +11,11 @@ from preprocessing import (
 )
 
 rf_model = joblib.load(
-    'random_forest.pkl'
+    'models/random_forest.pkl'
 )
 
 xgb_model = joblib.load(
-    'xgboost_model.pkl'
+    'models/xgboost_model.pkl'
 )
 
 rf_predictions = rf_model.predict(X_test)
