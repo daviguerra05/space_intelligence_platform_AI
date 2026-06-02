@@ -2,15 +2,6 @@
 
 ## AI Pipeline for Agricultural Water Stress Prediction
 
-### Features
-- Synthetic data generation
-- API data collection
-- Feature engineering
-- Random Forest
-- XGBoost
-- SHAP explainability
-- Streamlit deployment
-
 ### Run locally
 
 ```bash
