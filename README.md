@@ -31,14 +31,6 @@ space-intelligence-ml/
 │   └── synthetic/
 │       └── synthetic_agro_data.csv
 │
-├── notebooks/
-│   ├── 01_data_collection.ipynb
-│   ├── 02_eda.ipynb
-│   ├── 03_feature_engineering.ipynb
-│   ├── 04_model_training.ipynb
-│   ├── 05_model_evaluation.ipynb
-│   └── 06_shap_analysis.ipynb
-│
 ├── src/
 │   ├── data_collection.py
 │   ├── synthetic_data_generator.py
