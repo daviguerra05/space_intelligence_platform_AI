@@ -289,13 +289,156 @@ Ambientes secos aumentam a perda de água das plantas.
 - Joblib
 
 ---
-# Link da Aplicação 🌐
+# Como Utilar a Aplicação 🚀
 
-Substitua pelo link real da aplicação:
+A aplicação foi desenvolvida com **Streamlit** e permite simular cenários agrícolas para prever o nível de risco de estresse hídrico utilizando Inteligência Artificial.
+
+O usuário pode ajustar variáveis ambientais e agrícolas diretamente pela interface para obter previsões em tempo real.
+
+## Link da Aplicação 🌐
 
 ```text
 https://space-intelligence-platform-ai.onrender.com/
 ```
+
+## Interface da Aplicação
+
+Ao abrir a aplicação, serão exibidos campos interativos para preenchimento dos dados agrícolas.
+
+## Variáveis Disponíveis
+
+### 🌿 NDVI
+
+Índice de vegetação utilizado para medir a saúde da plantação.
+
+Faixa:
+
+```text
+0.0 → 1.0
+```
+
+* Valores maiores indicam vegetação mais saudável;
+* Valores menores podem indicar degradação ou estresse.
+
+---
+
+### 💧 Soil Moisture
+
+Representa a umidade do solo.
+
+Faixa:
+
+```text
+0 → 100
+```
+
+* Valores baixos aumentam o risco de estresse hídrico;
+* Valores altos indicam maior disponibilidade de água.
+
+---
+
+### 🌡️ Temperature
+
+Temperatura ambiente em graus Celsius.
+
+Faixa:
+
+```text
+0 → 50
+```
+
+Temperaturas elevadas podem aumentar o risco de perda hídrica nas culturas.
+
+---
+
+### 🌧️ Rainfall
+
+Quantidade de chuva acumulada.
+
+Faixa:
+
+```text
+0 → 300
+```
+
+Baixos níveis de precipitação podem impactar diretamente o estresse das plantações.
+
+---
+
+### 💨 Humidity
+
+Umidade relativa do ar.
+
+Faixa:
+
+```text
+0 → 100
+```
+
+Ambientes muito secos aumentam a evapotranspiração das plantas.
+
+---
+
+### 🌱 Crop Type
+
+Tipo de cultura agrícola analisada.
+
+Opções disponíveis:
+
+* Soy
+* Corn
+* Cotton
+
+---
+
+### 🌍 Region
+
+Região agrícola simulada.
+
+Opções disponíveis:
+
+* North
+* South
+* West
+
+---
+
+## Como Fazer uma Predição
+
+### 1. Ajuste os parâmetros
+
+Utilize os sliders e caixas de seleção para configurar o cenário agrícola desejado.
+
+---
+
+### 2. Aguarde a inferência do modelo
+
+A aplicação envia automaticamente os dados para o modelo treinado em XGBoost.
+
+---
+
+### 3. Visualize o resultado
+
+A IA retornará uma das seguintes classificações:
+
+| Resultado   | Significado                     |
+| ----------- | ------------------------------- |
+| Low Risk    | Baixo risco de estresse hídrico |
+| Medium Risk | Risco moderado                  |
+| High Risk   | Alto risco de estresse hídrico  |
+
+---
+
+# Objetivo da Demonstração
+
+Esta aplicação representa uma demonstração simplificada de um dos módulos da **Space Intelligence Platform**, mostrando como:
+
+* IA preditiva;
+* Dados ambientais;
+* Modelos de Machine Learning;
+* Inteligência operacional;
+
+podem ser utilizados para antecipar riscos agrícolas em tempo real.
 
 ---
 

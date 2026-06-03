@@ -2,8 +2,6 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-# streamlit run src/app.py
-
 model = joblib.load(
     'models/xgboost_model.pkl'
 )
