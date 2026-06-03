@@ -458,8 +458,8 @@ Além disso, o pipeline representa um exemplo prático de como módulos intelige
 
 # Autores
 
-Projeto desenvolvido para fins acadêmicos, demonstrativos e de pesquisa aplicada em:
-- Inteligência Artificial;
-- Geospatial AI;
-- Agricultura de Precisão;
-- Space Intelligence Systems.
+* Davi Passanha de Sousa Guerra - RM551605
+* Cauã Gonçalves de Jesus - RM97648
+* Luan Silveira Macea - RM98290
+* Rui Amorim Siqueira - RM98436
+* Luigi Ferrara Sinno -RM98047
