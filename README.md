@@ -300,6 +300,8 @@ O usuário pode ajustar variáveis ambientais e agrícolas diretamente pela inte
 ```text
 https://space-intelligence-platform-ai.onrender.com/
 ```
+> ⚠️ **Observação:** A aplicação está hospedada no plano gratuito do Render. Por esse motivo, o primeiro acesso pode demorar alguns segundos ou até alguns minutos, pois a infraestrutura precisa inicializar completamente o servidor e carregar a aplicação antes de disponibilizá-la ao usuário. Após a inicialização, os acessos seguintes tendem a ser significativamente mais rápidos.
+
 
 ## Interface da Aplicação
 
@@ -426,19 +428,6 @@ A IA retornará uma das seguintes classificações:
 | Low Risk    | Baixo risco de estresse hídrico |
 | Medium Risk | Risco moderado                  |
 | High Risk   | Alto risco de estresse hídrico  |
-
----
-
-# Objetivo da Demonstração
-
-Esta aplicação representa uma demonstração simplificada de um dos módulos da **Space Intelligence Platform**, mostrando como:
-
-* IA preditiva;
-* Dados ambientais;
-* Modelos de Machine Learning;
-* Inteligência operacional;
-
-podem ser utilizados para antecipar riscos agrícolas em tempo real.
 
 ---
 
